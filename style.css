@@ -1,0 +1,55 @@
+body{
+
+background-color: #2D383A;
+
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+    height: 80%;
+    border-radius: 2vh;
+    background:linear-gradient(90deg,#66FF66,#FAFA37,#FF355E,#66FF66,#FAFA37);
+    animation: mycontainer 5s infinite;
+    
+}
+
+@keyframes mycontainer {
+    0% {
+        background:linear-gradient(90deg);
+    }
+    10%{
+        background:linear-gradient(100deg);
+    }
+    20%{
+        background:linear-gradient(110deg);
+    }
+    30%{
+        background:linear-gradient(120deg);
+    }
+    40%{
+        background:linear-gradient(130deg);
+    }
+
+    50%{
+        background:linear-gradient(140deg);
+    }
+    60%{
+        background:linear-gradient(150deg);
+    }
+    70%{
+        background:linear-gradient(160deg);
+    }
+    80%{
+        background:linear-gradient(170deg);
+    }
+    90%{
+        background:linear-gradient(180deg);
+    }
+    100%{
+        background:linear-gradient(90deg);
+    }
+}
