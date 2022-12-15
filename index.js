@@ -193,7 +193,7 @@ addEventListener("keydown", e => {
         case "/":
             printoperator("/")
             break;
-        default:
+        case "Escape":
             reset()
     }
 
