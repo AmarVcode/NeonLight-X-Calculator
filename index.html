@@ -12,39 +12,33 @@
 
 <div class="container">
     <div class="display">
-        <div id="operator">
-+
-        </div>
+        <div id="operator">operator</div>
         <div class="number">
-            <div id="beforenumber">
-999
-            </div>
-            <div id="currentnumber">
-999
-            </div>
+            <div id="previousnumber">Previous Number</div>
+            <div id="currentnumber">Current Number</div>
         </div>
     </div>
     <div class="nums">
-        <div>%</div>
-        <div>/</div>
-        <div>*</div>
-        <div>-</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div>+</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>
-            Clear
+        <div onclick="Clear()">C</div>
+        <div onclick="printoperator('/')">/</div>
+        <div onclick="printoperator('*')">*</div>
+        <div onclick="printoperator('-')">-</div>
+        <div onclick="print(7)">7</div>
+        <div onclick="print(8)">8</div>
+        <div onclick="print(9)">9</div>
+        <div onclick="printoperator('+')">+</div>
+        <div onclick="print(4)">4</div>
+        <div onclick="print(5)">5</div>
+        <div onclick="print(6)">6</div>
+        <div onclick="printpoint('.')">.</div>
+        <div onclick="print(2)">2</div>
+        <div onclick="print(3)">3</div>
+        <div onclick="reset()">
+            Reset
         </div>
-        <div>.</div>
-        <div>0</div>
-        <div>=</div>
+        <div onclick="print(1)">1</div>
+        <div onclick="print(0)">0</div>
+        <div onclick="equal()">=</div>
     </div>
 </div>
 
