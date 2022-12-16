@@ -17,32 +17,14 @@ body{
         .display{
             box-shadow: 0px 0px 10px lime,0px 0px 10px lime inset;
             border: 2px solid rgba(0, 255, 0, 0.8);
-            padding: 1em;
+            padding: .8em;
             margin: 2em;
-            display: grid;
-            grid-template-columns: 10% 90%;
             border-radius: 10px;
-            &>div:nth-child(1){
-                    font-size: 1.5rem;
-                    font-weight: bolder;
-                }
-            &>div{
-                text-align: right;
-                font-size: 2rem;
-                color: lime;
-                text-shadow: 0px 0px 10px lime;
-                
-            }
-            .number{
-                display: flex;
-                flex-direction: column;
-                overflow: hidden;
-                word-wrap: break-word;
-                &>div:nth-child(2){
-                    font-size: 1rem;
-                    overflow: hidden;
-                }
-            }
+            color: lime;
+            font-size: 1.5rem;
+            text-align: center;
+            text-shadow: 0px 0px 10px lime;
+            word-wrap: break-word;
         }
         .nums{
             display: grid;
