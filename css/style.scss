@@ -25,6 +25,7 @@ body{
             text-align: center;
             text-shadow: 0px 0px 10px lime;
             word-wrap: break-word;
+            background-color: black;
         }
         .nums{
             display: grid;
@@ -43,6 +44,7 @@ body{
                 overflow: hidden;
                 transition: 400ms;
                 border-radius: 5px;
+                background-color: black;
                 &:hover{
                     color: black;
                     text-shadow: 0px 0px 10px black;
@@ -58,4 +60,290 @@ body{
         }
     }
     
+}
+
+
+.bg{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    &>svg{
+        width: 3rem;
+        fill: yellow;
+        position: relative;
+    }
+    &>svg:nth-child(1){
+        animation: bg 1s infinite alternate;
+        animation-delay: 100ms;
+    }
+    &>svg:nth-child(2){
+        animation: bg 1s infinite alternate;
+        animation-delay: 200ms;
+    }
+    &>svg:nth-child(3){
+        animation: bg 1s infinite alternate;
+        animation-delay: 300ms;
+    }
+    &>svg:nth-child(4){
+        animation: bg 1s infinite alternate;
+        animation-delay: 400ms;
+    }
+    &>svg:nth-child(5){
+        animation: bg 1s infinite alternate;
+        animation-delay: 500ms;
+    }
+    &>svg:nth-child(6){
+        animation: bg 1s infinite alternate;
+        animation-delay: 600ms;
+    }
+    &>svg:nth-child(7){
+        animation: bg 1s infinite alternate;
+        animation-delay: 700ms;
+    }
+    &>svg:nth-child(8){
+        animation: bg 1s infinite alternate;
+        animation-delay: 800ms;
+    }
+    &>svg:nth-child(9){
+        animation: bg 1s infinite alternate;
+        animation-delay: 900ms;
+    }
+    &>svg:nth-child(10){
+        animation: bg 1s infinite alternate;
+        animation-delay: 1000ms;
+    }
+    &>svg:nth-child(11){
+        animation: bg 1s infinite alternate;
+        animation-delay: 1100ms;
+    }
+    &>svg:nth-child(12){
+        animation: bg 1s infinite alternate;
+        animation-delay: 1200ms;
+    }
+    
+}
+
+.bg2{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    &>svg{
+        width: 3rem;
+        fill: yellow;
+        position: relative;
+    }
+    &>svg:nth-child(1){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 100ms;
+    }
+    &>svg:nth-child(2){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 200ms;
+    }
+    &>svg:nth-child(3){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 300ms;
+    }
+    &>svg:nth-child(4){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 400ms;
+    }
+    &>svg:nth-child(5){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 500ms;
+    }
+    &>svg:nth-child(6){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 600ms;
+    }
+    &>svg:nth-child(7){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 700ms;
+    }
+    &>svg:nth-child(8){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 800ms;
+    }
+    &>svg:nth-child(9){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 900ms;
+    }
+    &>svg:nth-child(10){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 1000ms;
+    }
+    &>svg:nth-child(11){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 1100ms;
+    }
+    &>svg:nth-child(12){
+        animation: bg2 1s infinite alternate;
+        animation-delay: 1200ms;
+    }
+    
+}
+
+
+.bg3{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    &>svg{
+        width: 3rem;
+        fill: yellow;
+        position: relative;
+    }
+    &>svg:nth-child(1){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 100ms;
+    }
+    &>svg:nth-child(2){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 200ms;
+    }
+    &>svg:nth-child(3){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 300ms;
+    }
+    &>svg:nth-child(4){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 400ms;
+    }
+    &>svg:nth-child(5){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 500ms;
+    }
+    &>svg:nth-child(6){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 600ms;
+    }
+    &>svg:nth-child(7){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 700ms;
+    }
+    &>svg:nth-child(8){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 800ms;
+    }
+    &>svg:nth-child(9){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 900ms;
+    }
+    &>svg:nth-child(10){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 1000ms;
+    }
+    &>svg:nth-child(11){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 1100ms;
+    }
+    &>svg:nth-child(12){
+        animation: bg3 1s infinite alternate;
+        animation-delay: 1200ms;
+    }
+    
+}
+
+.bg4{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    &>svg{
+        width: 3rem;
+        fill: yellow;
+        position: relative;
+    }
+    &>svg:nth-child(1){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 100ms;
+    }
+    &>svg:nth-child(2){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 200ms;
+    }
+    &>svg:nth-child(3){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 300ms;
+    }
+    &>svg:nth-child(4){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 400ms;
+    }
+    &>svg:nth-child(5){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 500ms;
+    }
+    &>svg:nth-child(6){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 600ms;
+    }
+    &>svg:nth-child(7){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 700ms;
+    }
+    &>svg:nth-child(8){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 800ms;
+    }
+    &>svg:nth-child(9){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 900ms;
+    }
+    &>svg:nth-child(10){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 1000ms;
+    }
+    &>svg:nth-child(11){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 1100ms;
+    }
+    &>svg:nth-child(12){
+        animation: bg4 1s infinite alternate;
+        animation-delay: 1200ms;
+    }
+    
+}
+
+@keyframes bg {
+    0%{
+        bottom: 0vh;
+    }
+    100%{
+        bottom: 40vh;
+    }
+}
+
+@keyframes bg2 {
+    0%{
+        bottom: 40vh;
+    }
+    100%{
+        bottom: 0vh;
+    }
+}
+
+@keyframes bg3 {
+    0%{
+        bottom: 10vh;
+    }
+    100%{
+        bottom: 30vh;
+    }
+}
+
+@keyframes bg4 {
+    0%{
+        bottom: 30vh;
+    }
+    100%{
+        bottom: 10vh;
+    }
 }
