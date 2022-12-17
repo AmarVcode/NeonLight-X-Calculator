@@ -48,7 +48,6 @@ body .container .nums > div {
   overflow: hidden;
   transition: 400ms;
   border-radius: 5px;
-  background-color: black;
 }
 body .container .nums > div:hover {
   color: black;
@@ -68,6 +67,7 @@ body .container .nums > div:nth-last-child(4) {
   bottom: 0;
   display: flex;
   justify-content: space-around;
+  z-index: -1000;
 }
 .bg > svg {
   width: 3rem;
@@ -128,6 +128,7 @@ body .container .nums > div:nth-last-child(4) {
   position: fixed;
   bottom: 0;
   display: flex;
+  z-index: -1000;
   justify-content: space-around;
 }
 .bg2 > svg {
@@ -189,6 +190,7 @@ body .container .nums > div:nth-last-child(4) {
   position: fixed;
   bottom: 0;
   display: flex;
+  z-index: -1000;
   justify-content: space-around;
 }
 .bg3 > svg {
@@ -250,6 +252,7 @@ body .container .nums > div:nth-last-child(4) {
   position: fixed;
   bottom: 0;
   display: flex;
+  z-index: -1000;
   justify-content: space-around;
 }
 .bg4 > svg {
